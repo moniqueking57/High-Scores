@@ -1,7 +1,7 @@
 import React from "react";
-import ScoreTable from "./ScoreTable.js";
+import allCountryScores from "./ScoreTable.js";
 
-const ScoreTable = (props) => {
+const Scores = (props) => {
   console.log(props);
   const { country } = props;
   return (
@@ -23,4 +23,4 @@ const ScoreTable = (props) => {
   );
 };
 
-export default ScoreTable;
+export default Scores;
